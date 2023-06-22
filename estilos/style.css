@@ -45,3 +45,38 @@ body {
     background-color: #fff;
     color: #f7b600;
 }
+
+main {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+main > .conteudo-central {
+    background-color: #ffffff;
+    padding: 26px;
+    margin: 15px;
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+
+
+main > .conteudo-central > .principal {
+    color: #f7b600;
+    padding: 10px;
+}
+
+main > .conteudo-central > .principal > p {
+    color: #000;
+}
+
+main > .conteudo-central > img {
+    width: 100%;
+    height: 70%;
+}
+
+main > .conteudo-central > .area-lateral {
+    position: absolute;
+    right: 30px;
+    width: 200px;
+}
